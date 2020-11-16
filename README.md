@@ -17,6 +17,3 @@ game.add(5);
 Check `test/game_test.dart` for more examples.
 
 This implementation is based on the book `Agile Principles, Patterns, and Practices in C#` by `Martin C. Robert, Martin Micah` 
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
