@@ -2,9 +2,10 @@ import 'package:bowling/game.dart';
 import 'package:test/test.dart';
 
 void main() {
-  Game game = Game();
+  late Game game;
 
   setUp(() {
+    game = Game();
   });
 
   test('Test two throws no mark', () {
