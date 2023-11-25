@@ -1,5 +1,5 @@
 class Scorer {
-  int _ball;
+  late int _ball;
   final _throws = List<int>.filled(21, 0);
   int _currentThrow = 0;
 
