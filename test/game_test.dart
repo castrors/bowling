@@ -2,7 +2,7 @@ import 'package:bowling/game.dart';
 import 'package:test/test.dart';
 
 void main() {
-  Game game;
+  late Game game;
 
   setUp(() {
     game = Game();
@@ -12,7 +12,6 @@ void main() {
     game.add(5);
     game.add(4);
     expect(game.score, 9);
-    
   });
 
   test('Test four throws no mark', () {
